@@ -23,14 +23,11 @@ get getData(){
 set setData(data){
     this.#data = data
 }
-
-
-
-
-
-
-
-
+getInfo(){
+    console.log(`Prioridade: ${this.getPrioridade} data: ${this.getData}`);
+}
 
 
 }
+
+module.exports = {TarefasPessoais};
