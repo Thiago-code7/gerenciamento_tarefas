@@ -1,4 +1,4 @@
-const Tarefa = require('./Tarefa');
+const {Tarefa} = require('./Tarefa');
 
 class TarefasPessoais extends Tarefa {
     #prioridade
