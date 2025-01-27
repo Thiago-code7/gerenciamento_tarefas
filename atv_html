@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edutech</title>
+</head>
+<body>
+    <header>
+        <h1 id="home">Edutech</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a  href="#palestrantes">Palestrantes</a></li>
+                <li><a href="#agenda">Agenda</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="sobre">
+        <h2>Sobre o evento</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione corrupti possimus dolore explicabo omnis maiores facilis non saepe corporis. Ab quae officia accusamus dolores consequuntur facilis, hic error beatae incidunt.
+
+        </p>
+
+        </section>
+    </main>
+    <section> id="palestrantes">
+        <h2>palestrante</h2>
+        <ul>
+            <li>
+                <strong>Maria silva</strong> - Engenheira de Software e Especialista em IA.
+            </li>
+            <li>
+                <strong>João Souza</strong> - Desenvolvedor Front-end e palestrante em IA.
+            </li>
+            <li>
+                <strong>
+                    Ana Costa
+                </strong> - Pesquisadora em Ciber segurança.
+            </li>
+        </ul>
+    </section>
+    <section id="agenda">
+        <h2> Agenda</h2>
+        <table border>
+            <!--Cabeçalho-->
+            <thead>
+                <tr>
+                    <th>Horario</th>
+                    <th>Atividade</th>
+                    <th>Palestrante</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>09:00</td>
+                    <td>Abertura</td>
+                    <td>Equipe Organizadora</td>
+                </tr>
+                <tr>
+                    <td>10:00</td>
+                    <td>Tecnologias Emergentes na educação</td>
+                    <td>Maria Silva</td>
+                </tr>
+                <tr>
+                    <td>13:00</td>
+                    <td>Desenvolvimento de sistema web para educação</td>
+                    <td>João Souza</td>
+                </tr>
+                
+            </tbody>
+        </table>
+
+    </section>
+    <section id="Contato">
+        <h2>Contato</h2>
+        <form action="" method="post">
+            <label form="name">nome:</label>
+            <input type="text" id="nome" name="nome" placeholder="Digite seu nome">
+            
+        <br/>
+            <label for="email">E-mail: </label>
+            <input type="email" id="email" name="email" placeholder="Digite seu email">
+        <br/>
+            <label for="mensagem">digite a sua mensagem</label>
+            <textarea id="mensagem" name="mensagem"></textarea> <br/>
+            <input type="submit" value="Enviar dados">
+        </form>
+
+    </section>
+    <footer>
+        <p>&copy; 2015 Edutech, todos os direitos</p>
+    </footer>
+</body>
+</html>
